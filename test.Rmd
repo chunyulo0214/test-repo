@@ -1,0 +1,14 @@
+---
+title: "testing"
+author: "ChunYu Lo (Jack)"
+date: "3/2/2023"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
+
